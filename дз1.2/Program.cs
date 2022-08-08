@@ -1,20 +1,20 @@
 ﻿string name;
 
 Console.WriteLine("Как вас зовут?");
-name=Console.ReadLine();
+name = Console.ReadLine();
 
 string familia;
 
 Console.WriteLine("Какая у вас фамилия?");
-familia=Console.ReadLine();
+familia = Console.ReadLine();
 
 
 
 string otchestvo;
 
 Console.WriteLine("Какое у вас отчество?");
-otchestvo=Console.ReadLine();
+otchestvo = Console.ReadLine();
 
 
-string fullName= familia + " "+name+" "+otchestvo;
+string fullName = familia + " " + name + " " + otchestvo;
 Console.WriteLine(fullName);
